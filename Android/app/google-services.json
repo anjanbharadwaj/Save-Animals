@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "766800996864",
+    "firebase_url": "https://lahacks-150e1.firebaseio.com",
+    "project_id": "lahacks-150e1",
+    "storage_bucket": "lahacks-150e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766800996864:android:c28775cf55e8706e",
+        "android_client_info": {
+          "package_name": "com.example.sreeharirammohan.saveanimals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766800996864-oivsiccmdrrla449g861ejq5vns8gr7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmGGj1Vs795V9c1jB4kYzeweGpexRGat4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

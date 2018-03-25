@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="img/fav.png">
+	<!-- Author Meta -->
+	<meta name="author" content="codepixer">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<style>
+      /* Always set the map height explicitly to define the size of the div
+      * element that contains the map. */
+      #map {
+        min-height: 100%;
+        min-width: 100%;
+    }
+        html, body {
+            margin: 0;
+            height:100%;
+            width: 100%;
+            padding: 0;
+            box-sizing:border-box;
+        }
+    
+
+    </style>
+    <!-- Site Title -->
+    <title>Save Animals</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+    			<!--
+    			CSS
+    			============================================= -->
+    			<link rel="stylesheet" href="css/linearicons.css">
+    			<link rel="stylesheet" href="css/font-awesome.min.css">
+    			<link rel="stylesheet" href="css/bootstrap.css">
+    			<link rel="stylesheet" href="css/magnific-popup.css">
+    			<link rel="stylesheet" href="css/nice-select.css">					
+    			<link rel="stylesheet" href="css/animate.min.css">
+    			<link rel="stylesheet" href="css/owl.carousel.css">
+    			<link rel="stylesheet" href="css/main.css">
+    		</head>
+
+    		<body>
+
+             <header id="header" id="home">
+
+              <hr>
+              <div class="container">
+                <div class="row align-items-center justify-content-between d-flex">
+                  <div id="logo">
+                    <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+                </div>
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                      <li class="menu-active"><a href="index.html">Home</a></li>
+                      <li><a href="download.html">Download</a></li>
+
+                      <li class="menu-active"><a href="map.html">Map</a></li>
+
+                  </ul>
+              </nav><!-- #nav-menu-container -->		    		
+          </div>
+      </div>
+  </header><!-- #header -->
+  <!-- start banner Area -->
+  <section class="banner-area relative" style="background-image: url('https://www.thetimes.co.uk/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2Fd428d9de-fe9f-11e6-99c1-0f7da5c35c8f.jpg?crop=1141%2C642%2C7%2C123&resize=685')" id="home">
+    <div class="overlay overlay-bg"></div>	
+    <div class="container">
+     <div class="row fullscreen d-flex align-items-center justify-content-center">
+      <div class="banner-content col-lg-8">
+       <h6 class="text-white">Los Altos Hacks</h6>
+       <h1 class="text-white">
+        Animal Map				
+    </h1>
+    <p class="pt-20 pb-20 text-white">
+        Scroll down to view the animals you and others have located using Google Maps.
+    </p>
+
+</div>											
+</div>
+</div>					
+</section>
+<!-- End banner Area -->
+<section style="width:100%; background-color: #e6fff2">
+    <div class="container">
+     <div class="row" style="width:100% ; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;">	
+         <div style="height: 600px;" id="map"></div>
+         <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+         <script>
+    			  // Initialize Firebase
+    			  var config = {
+                   apiKey: "AIzaSyDiCUcjkv0FC0SGjCPXVAh4tGdL43pu4uo",
+                   authDomain: "lahacks-150e1.firebaseapp.com",
+                   databaseURL: "https://lahacks-150e1.firebaseio.com",
+                   projectId: "lahacks-150e1",
+                   storageBucket: "lahacks-150e1.appspot.com",
+                   messagingSenderId: "766800996864"
+               };
+               firebase.initializeApp(config);
+           </script>
+
+           <script src="mapscript2.js"></script>
+           <script async defer
+           src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD11C6q1gn8e30e9ePKoWx2QwGjJeL4usk&callback=initMap">
+       </script>
+       </div>
+    </div>
+</section>
+
+<script src="js/vendor/jquery-2.2.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="js/vendor/bootstrap.min.js"></script>			
+<script src="js/easing.min.js"></script>			
+<script src="js/hoverIntent.js"></script>
+<script src="js/superfish.min.js"></script>	
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>	
+<script src="js/owl.carousel.min.js"></script>	
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/justified.min.js"></script>					
+<script src="js/jquery.sticky.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>			
+<script src="js/parallax.min.js"></script>		
+<script src="js/mail-script.js"></script>	
+<script src="js/main.js"></script>	
+</body>
+</html>
+
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3cb371</color>
+    <color name="colorPrimaryDark">#2e8b57</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="splashgreen">#e6fff2</color>
+    <color name="darkgrey">#2f4f4f</color>
+    <color name="control_background">#19e88b</color>
+    <color name="orange">#FF8F00</color>
+
+
+
+<!-- #e6fff2 <- light green -->
+</resources>
